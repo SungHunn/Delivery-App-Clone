@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="Widget.mvvmdeliverycloneapp.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:background">@color/white</item>
+        <item name="android:title">@null</item>
+    </style>
+
+    <style name="Widget.mvvmdeliverycloneapp.Toolbar.WithArrow" parent="Widget.MaterialComponents.Toolbar">
+        <item name="navigationIcon">@drawable/ic_baseline_arrow_back_24</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="Widget.mvvmdeliverycloneapp.Toolbar.WithClose" parent="Widget.MaterialComponents.Toolbar">
+        <item name="navigationIcon">@drawable/ic_baseline_close_24</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="Widget.mvvmdeliverycloneapp.Chip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipStrokeColor">@color/brown</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipBackgroundColor">@color/bg_filter_chip_state_list</item>
+        <item name="android:textColor">@color/text_filter_chip_state_list</item>
+        <item name="textStartPadding">8dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="chipIconTint">@color/icon_filter_chip_state_list_reset</item>
+        <item name="chipIconSize">12dp</item>
+        <item name="iconStartPadding">6dp</item>
+        <item name="chipEndPadding">2dp</item>
+    </style>
+</resources>
