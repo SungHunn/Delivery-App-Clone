@@ -1,5 +1,5 @@
  MVVM Delivery Clone App🛒
-- 앱 개발 목차 및 설명
+**앱 개발 목차 및 설명
 
 
 - gradle 설정 , 버전 맞추기 
